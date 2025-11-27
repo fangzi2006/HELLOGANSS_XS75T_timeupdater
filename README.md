@@ -25,8 +25,6 @@ pip install pyinstaller
 
 ### 3. 打包步骤
 
-本工具已配置为单文件、无控制台运行（`--onefile --noconsole`）。
-
 #### 步骤 1：生成 `.spec` 文件
 
 使用以下命令生成 PyInstaller 配置文件：
@@ -43,27 +41,9 @@ pyi-makespec timeupdater.py --onefile --noconsole --name timeupdater
 pyinstaller timeupdater.spec  --clean
 ```
 
-### 4. 清理文件
-
-打包完成后，您可以安全地删除 `build` 文件夹和 `timeupdate.spec` 文件。
-
-- **Windows**:
-  ```cmd
-  rmdir /s /q build
-  del timeupdate.spec
-  ```
-
-- **Linux / macOS**:
-  ```bash
-  rm -rf build
-  rm timeupdate.spec
-  ```
-
----
-
 ## 📦 使用方法
 
-请从 [Release 页面](https://github.com/your-repo/releases) 下载 `timeupdate.exe` 文件。
+请从 [Release 页面](https://github.com/fangzi2006/HELLOGANSS_XS75T_timeupdater/releases) 下载 [`timeupdater.exe`](https://github.com/fangzi2006/HELLOGANSS_XS75T_timeupdater/releases/latest/download/timeupdater.exe) 文件。
 
 ### 默认行为
 
