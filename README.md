@@ -1,9 +1,9 @@
 
 # ⌨️ 键盘时间同步工具
 
-这是一个用于在2.4g模式同步 **xs75t 键盘**（VID: `05AC`, PID: `024F`）在屏幕时间的工具。其实就是有点精神洁癖，不想一直挂着驱动，但是这破键盘几天不同步时间就会有误差，所以<del>让AI写了这个程序</del>在AI的辅助下写了个程序
+这是一个用于在2.4g模式同步 **xs75t 键盘**（VID: `05AC`, PID: `024F`）在屏幕时间的工具。其实就是有点精神洁癖，不想一直挂着驱动，但是这破键盘几天不同步时间就会有误差，所以 <del>让AI写了这个程序</del> 在AI的辅助下写了个程序
 
-> **注意**：由于有线模式（USB）与无线模式（2.4G 接收器）使用了不同的通信协议<del>加上我懒</del>，**本工具仅支持通过 2.4G 接收器连接时的同步操作**。
+> **注意**：由于有线模式和蓝牙模式与2.4G模式使用了不同的方法 <del>主要是我懒</del> ，**本工具仅支持通过 2.4G 接收器连接时的同步操作**。
 
 ---
 
@@ -43,7 +43,7 @@ pyinstaller timeupdater.spec  --clean
 
 ## 📦 使用方法
 
-请从 [Release 页面](https://github.com/fangzi2006/HELLOGANSS_XS75T_timeupdater/releases) 下载 `timeupdater.exe` 文件。
+请从 [Release 页面](https://github.com/fangzi2006/HELLOGANSS_XS75T_timeupdater/releases) 下载 [`timeupdater.exe`] 文件。
 
 ### 默认行为
 
@@ -62,5 +62,4 @@ pyinstaller timeupdater.spec  --clean
 
 ```bash
 timeupdate.exe -t 20:30:00 -d 2025-11-24
-
 ```
