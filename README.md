@@ -43,7 +43,7 @@ pyinstaller timeupdater.spec  --clean
 
 ## 📦 使用方法
 
-请从 [Release 页面](https://github.com/fangzi2006/HELLOGANSS_XS75T_timeupdater/releases) 下载 [`timeupdater.exe`](https://github.com/fangzi2006/HELLOGANSS_XS75T_timeupdater/releases/latest/download/timeupdater.exe) 文件。
+请从 [Release 页面](https://github.com/fangzi2006/HELLOGANSS_XS75T_timeupdater/releases) 下载 `timeupdater.exe` 文件。
 
 ### 默认行为
 
@@ -62,4 +62,5 @@ pyinstaller timeupdater.spec  --clean
 
 ```bash
 timeupdate.exe -t 20:30:00 -d 2025-11-24
+
 ```
