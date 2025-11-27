@@ -7,7 +7,7 @@
 
 ---
 
-## ⚙️ 开发者与打包说明 (Python)
+## ⚙️ 打包说明
 
 如果您想从源代码运行或自行打包，请参考以下步骤。
 
@@ -62,4 +62,5 @@ pyinstaller timeupdater.spec  --clean
 
 ```bash
 timeupdate.exe -t 20:30:00 -d 2025-11-24
+
 ```
